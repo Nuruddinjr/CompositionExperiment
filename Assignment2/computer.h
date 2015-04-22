@@ -9,7 +9,7 @@ private:
 	Display displayObject;
 	Keyboard keyboardObject;
 	Mouse mouseObject;
-	static int counter;
+	static int counter; // declarte static member
 public:
 	Computer(string n, string u, Display d, Keyboard k, Mouse m);
 	void setName(string n);

@@ -1,3 +1,6 @@
+// Nuruddin Iminokhunov 
+// 22.04.2015
+
 #include "computer.h"
 
 int main(){
@@ -12,6 +15,7 @@ int main(){
 	cObj1.printInfo();
 
 	cout << endl;
+
 	Display dObj("LG");
 	Keyboard kObj("A4Tech", 108);
 	Mouse mObj("A4Tech");

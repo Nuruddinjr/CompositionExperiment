@@ -1,8 +1,8 @@
 #include "computer.h"
-int Computer::counter = 0;
+int Computer::counter = 0; // initialize static member data
 Computer::Computer(string n, string u, Display d, Keyboard k, Mouse m):displayObject(d),keyboardObject(k),mouseObject(m),name(n),user(u){
 	counter++;
-	cout << "* * * * Object Number: " << counter << " * * * *"<<endl;
+	cout << "* * * * Object Number: " << counter << " * * * *"<<endl; // Printing number of object each time  when constructor called
 }
 
 void Computer::setName(string n){
