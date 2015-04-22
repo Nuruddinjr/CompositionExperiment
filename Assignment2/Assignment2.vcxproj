@@ -78,10 +78,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="computer.cpp" />
+    <ClCompile Include="display.cpp" />
     <ClCompile Include="index.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="mouse.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="computer.h" />
+    <ClInclude Include="keyboard.h" />
     <ClInclude Include="libraries.h" />
+    <ClInclude Include="display.h" />
+    <ClInclude Include="mouse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
